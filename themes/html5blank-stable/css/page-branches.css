@@ -1,0 +1,64 @@
+.wpsl-search{
+	margin-bottom: 0px;
+	background: #495226;
+}
+#wpsl-search-btn{
+	border: none !important;
+    background: #551A28;
+    color: white;
+    font-size: 1.5em;
+    padding: 9px;
+}
+#wpsl-radius .wpsl-dropdown .wpsl-selected-item,
+#wpsl-results .wpsl-dropdown .wpsl-selected-item{
+	font-size: 15px;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+#wpsl-search-wrap div{
+	border: none !important;
+}
+#wpsl-wrap {
+    max-width: 95% !important;
+    margin: 20px auto !important;
+	border: 2px solid #495226 !important;
+}
+@media (min-width: 1200px){
+	#wpsl-wrap {
+    max-width: 1110px!important;
+	
+}
+}
+
+.wpsl-search {
+	border-bottom: 2px solid #495226 !important;
+}
+#wpsl-result-list {
+    border-right: 2px solid #495226 !important;
+    margin-right: 0% !important;
+}
+#wpsl-wrap #wpsl-result-list li {
+    border-bottom: 2px solid #495226 !important;
+}
+#wpsl-wrap #wpsl-result-list li:hover {
+  background: rgba(18, 235, 16, 0.1);
+}
+#wpsl-wrap #wpsl-search-wrap input:focus {
+  outline: 0;
+  border-color: #495226;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 235, 16, 0.1);
+  box-shadow: 0 0 0 0.2rem rgba(18, 235, 16, 0.1);
+}
+.wpsl-dropdown.wpsl-active {
+  outline: 0;
+  border-color: #495226;
+  -webkit-box-shadow: 0 0 0 0.2rem #113a09b8;
+  box-shadow: 0 0 0 0.2rem #113a09b8;
+}
+/* .form-group label, label {
+    color: black;
+} */
+#wpsl-wrap #wpsl-search-btn:active, #wpsl-wrap #wpsl-search-btn:focus, #wpsl-wrap #wpsl-search-btn:hover {
+/*     background-color: #a3430b !important;
+    border-color: #a3430b !important; */
+}

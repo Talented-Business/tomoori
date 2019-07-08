@@ -1,0 +1,60 @@
+/* Site footer */
+
+#colophon {
+
+	.widget-area,
+	.site-info {
+		margin: calc(2 * #{$size__spacing-unit}) $size__spacing-unit;
+
+		@include media(tablet) {
+			margin: calc(3 * #{$size__spacing-unit}) $size__site-margins;
+		}
+	}
+
+	.widget-column {
+		display: flex;
+		flex-wrap: wrap;
+		.widget {
+<<<<<<< HEAD
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			-ms-hyphens: auto;
+			hyphens: auto;
+			width: 100%;
+			word-wrap: break-word;
+=======
+			width: 100%;
+>>>>>>> 8c91935705208a077718ac4b9132ed48298a7910
+			@include media(desktop) {
+				margin-right: calc(3 * #{$size__spacing-unit});
+				width: calc(50% - (3 * #{$size__spacing-unit}));
+			}
+		}
+	}
+
+	.site-info {
+		color: $color__text-light;
+<<<<<<< HEAD
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word;
+=======
+>>>>>>> 8c91935705208a077718ac4b9132ed48298a7910
+
+		a {
+			color: inherit;
+
+			&:hover {
+				text-decoration: none;
+				color: $color__link;
+			}
+		}
+
+		.imprint,
+		.privacy-policy-link {
+			margin-right: $size__spacing-unit;
+		}
+	}
+}

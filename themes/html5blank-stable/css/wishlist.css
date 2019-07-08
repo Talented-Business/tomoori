@@ -1,0 +1,129 @@
+em{
+    font-style: normal !important;
+}
+
+article > p:first-child{
+    display: none;
+}
+
+.header-wrap .title{
+    font-weight: bold;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.header-wrap .breadcrumbs{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color:#BABABA;
+}
+
+.header-wrap .breadcrumbs span{
+    color:#212121;
+    padding:0px 5px;
+}
+
+.header-wrap .breadcrumbs a{
+    color:#BABABA;
+    padding:0px 5px;
+}
+
+.woocommerce table th{
+    text-align: right !important;
+    font-size: 12px;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.woocommerce table td{
+    text-align: right !important;
+    direction: rtl;
+}
+
+.woocommerce table.shop_table{
+    border:0px;
+}
+
+.woocommerce table .product-thumbnail{
+    width:100px;
+}
+
+.woocommerce table .product-thumbnail a{
+    background: #eee;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    max-width: 100px !important;
+}
+
+.woocommerce table img{
+    width:100px;
+}
+
+.woocommerce table .product-name a{
+    color:#212121;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.woocommerce table .product-price,
+.woocommerce table .product-subtotal{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.woocommerce table .product-remove{
+    width:50px;
+}
+
+.woocommerce .option-variation{
+    font-size: 12px;
+    color:#ABABAB;
+}
+
+.woocommerce a.remove{
+    font-size: 2.5em;
+    color: #212121 !important;
+}
+
+.woocommerce a.remove:hover{
+    background: transparent !important;
+    color: #7a2828 !important;
+}
+
+.woocommerce table.wishlist_table thead th{
+    border-top: 0px;
+}
+
+.woocommerce .wishlist_table td.product-add-to-cart a{
+    display:block;
+    text-decoration: none;
+    background:#495126;
+    color:#fff;
+    padding:12px;
+    text-align: center;
+    font-size: 12px;
+    width:100%;
+    margin:0px;
+    height: 35px;
+    border-radius:0px;
+}
+
+.woocommerce .wishlist_table td.product-add-to-cart a:hover{
+    background:#545e2c;
+    color:#fff;
+}
+
+.bottom-pattern {
+    height: 130px;
+    background-size: cover;
+    background-position-y: -18px;
+}
+
+table .product-price,
+table .product-name,
+table .product-thumbnail{
+    text-align: center;
+}

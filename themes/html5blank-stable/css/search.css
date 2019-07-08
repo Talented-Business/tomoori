@@ -1,0 +1,144 @@
+.search-header{
+    border-bottom: 1px solid #ddd;
+    width:100%;
+}
+
+.form-group{
+    font-size:16px;
+}
+
+.form-group label{
+    width:100%;
+    display:block;
+    color:black;
+    font-size:16px;
+}
+
+.select2-container--default .select2-selection--single{
+    height: 55px;
+    border-radius: 0px;
+}
+
+.search-input{
+    box-sizing: border-box !important;
+}
+
+.form-control{
+    background:#F2F2F2;
+    padding:12px;
+    outline:0;
+    border:2px solid transparent;
+    transition-duration: .2s;
+    font-size:14px;
+    margin-top:4px;
+}
+
+.form-control:focus{
+    border:2px solid #495126;
+    box-shadow: none;
+}
+
+.search-header .tab{
+    display:inline-block;
+    font-size: 16px;
+    color:#ABABAB;
+    margin-left:5px;
+    padding:5px;
+    line-height: 0;
+    padding-bottom: 15px;    
+}
+
+.search-header .tab.active{
+    font-size: 20px;
+    color:#212121;
+    font-weight: bold;
+    border-bottom: 2px solid #212121;
+}
+
+/* Result Blocks */
+
+.block-post,
+.block-product{
+    display:flex;
+    flex-direction: column;
+}
+
+.block-product .thumbnail{
+    display:block;
+    padding:40px 10px;
+    background:#F2F2F2;
+}
+
+.block-product .thumbnail img{
+    width: 100%;
+}
+
+.block-product .name{
+    color:#212121;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.block-product .price{
+    color:#ABABAB;
+    font-size: 12px;
+}
+
+.block-post .media{
+    width:100%;
+    height:250px;
+    overflow: hidden;
+    position: relative;
+    background: #F2F2F2;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block-post .date{
+    color:#ABABAB;
+    font-size: 12px;
+}
+
+.block-post .title{
+    color:#212121;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Filters */
+
+.filter-block{
+	display: inline-flex;
+    align-items: center;
+}
+.filter-block span{
+	color: #212325;
+    font-weight: bold
+}
+.filter-block a{
+    color: #777983;
+    text-decoration: none;
+	margin: 0px 15px;
+}
+
+.sidebar ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.sidebar ul > li{
+    display:block;
+    padding:5px;
+    color:#ABABAB;
+}
+
+.sidebar ul > li > a{
+    text-decoration: none;
+}
+
+.sidebar ul > li ul{
+    padding-right: 20px;
+}

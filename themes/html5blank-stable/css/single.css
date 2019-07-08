@@ -1,0 +1,114 @@
+.post-image-header{
+	height:400px;
+	position:relative;
+	overflow: hidden;
+}
+
+.post-image-header img{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+}
+
+.next-post{
+	padding:40px 0px;
+	border-top: 1px solid #ABABAB;
+}
+
+.btn-next,.btn-previous{
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    color: #fff;
+    background: #495126;
+    text-decoration: none;
+}
+.nav-links .nav-next,.nav-links .nav-previous{
+	display:block;
+}
+.nav-links .nav-next{
+	float:right;
+}
+.nav-links .nav-previous{
+	float:left;
+}
+#comment,#author,#url,#email{
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#submit{
+	padding: 10px 20px;
+}
+.next-article .excerpt{
+	color:#777;
+	font-size: 14px;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space: nowrap;
+}
+.next-article .title{
+	color:#212121;
+	font-size: 18px;
+}
+
+.the-content p,
+.meta p{
+	font-size: 14px;
+    line-height: 2em;
+}
+.the-content .awsm-job-entry-content.entry-content p{
+	font-size: 1.2em;
+}
+.comments{
+	padding:20px;
+}
+.woocommerce .type-product span.onsale{
+    top: 0.5em;
+	left: 51em;
+	margin: 0;
+	font-size:0.6em;
+    border-radius: 100%;
+    background-color: #495126;	
+}
+.woocommerce .type-product .upsells.products  span.onsale{
+	left:15em;
+}
+@media only screen and (max-width: 1200px) {
+	.woocommerce .type-product span.onsale{
+		left: 43.5em;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.woocommerce .type-product span.onsale{
+		left: 32.5em;
+		top: 3em;
+	}
+	.woocommerce .type-product .upsells.products span.onsale{
+		top: 1.5em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.woocommerce .type-product span.onsale{
+		left: 0.5em;
+		top: 3em;
+	}
+	.woocommerce .type-product .upsells.products span.onsale{
+		left: 10em;
+		top: 1.5em;
+	}
+}
